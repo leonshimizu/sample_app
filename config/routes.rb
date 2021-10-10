@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get "/hello_path", controller: "example_pages", action: "hello_action"
   get "/world_path", controller: "example_pages", action: "world_action"
   get "/user_path", controller: "example_pages", action: "user_action"
+  get "/array_path", controller: "example_pages", action: "array_action"
 end

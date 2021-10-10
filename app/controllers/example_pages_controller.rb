@@ -10,4 +10,8 @@ class ExamplePagesController < ApplicationController
   def user_action
     render json: {message: "trying to figure out how to let users type here"}
   end
+
+  def array_action
+    render json: {array: [1, 2, 3]}
+  end
 end
