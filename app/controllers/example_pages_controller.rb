@@ -19,9 +19,9 @@ class ExamplePagesController < ApplicationController
     render json: {"number" => 1}
   end
   
-  def complex_hash_action # tried to add the code from nested hashes, this is the only line that worked
+  def complex_hash_action # tried to add the code from nested hashes, didn't work the original way but this works
     render json: {
-      "first_name" => "Robert"
+      "first_names" => ["Robert", "Molly", "Kelly"]
       }
   end
 end
