@@ -1,0 +1,5 @@
+GET http://localhost:3000/hello_path
+
+###
+
+GET http://localhost:3000/world_path
