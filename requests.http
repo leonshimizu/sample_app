@@ -2,4 +2,20 @@ GET http://localhost:3000/hello_path.json
 
 ###
 
-GET http://localhost:3000/world_path
+GET http://localhost:3000/world_path.json
+
+###
+
+GET http://localhost:3000/user_path.json
+
+###
+
+GET http://localhost:3000/array_path.json
+
+###
+
+GET http://localhost:3000/hash_path.json
+
+###
+
+GET http://localhost:3000/complex_hash_path.json
