@@ -1,6 +1,6 @@
 class ExamplePagesController < ApplicationController
   def hello_action
-    render json: {message: "hello"}
+    render json: {message: "hello", current_time: Time.now.strftime("%b %e, %l:%M %p")}
   end
 
   def world_action
