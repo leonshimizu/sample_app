@@ -14,4 +14,8 @@ class ExamplePagesController < ApplicationController
   def array_action
     render json: {array: [1, 2, 3]}
   end
+
+  def hash_action 
+    render json: {"number" => 1}
+  end
 end
