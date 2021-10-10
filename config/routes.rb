@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get "/user_path", controller: "example_pages", action: "user_action"
   get "/array_path", controller: "example_pages", action: "array_action"
   get "/hash_path", controller: "example_pages", action: "hash_action"
+  get "/complex_hash_path", controller: "example_pages", action: "complex_hash_action"
 end
